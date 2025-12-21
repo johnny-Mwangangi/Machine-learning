@@ -1,7 +1,7 @@
 import pandas as pd
 
 def coverage_ke_3g():
-    file_path = "/Users/mwangangi/Documents/Data/ITU_DH_POP_COV_3G_WIDEF.csv"
+    file_path = "WB-Dataset/ITU_DH_POP_COV_3G_WIDEF.csv"
     df = pd.read_csv(file_path)
 
     #Filter Columns that has years incooprated
