@@ -1,0 +1,20 @@
+WB-Kenya-Population coverage-at least 3G/
+│
+├── data/
+│   └── WB-Dataset/
+│
+├── Models/
+│   └── kenya_3g_pipeline.joblib
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── visualization.py
+│   ├── modeling.py
+│   └── forecasting.py
+│
+├── train.py
+├── predict.py
+└── requirements.txt
