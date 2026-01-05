@@ -16,4 +16,3 @@ new_data = pd.DataFrame (
 
 prediction = pipeline.predict(new_data[features])
 print("Predict 3G coverage:", prediction[0])
-
